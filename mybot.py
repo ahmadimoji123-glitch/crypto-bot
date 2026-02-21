@@ -3,7 +3,7 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 
 # توکن ربات تلگرام
-TOKEN = '7654399573:AAEOhd7xgrDcFMPuWkZ4A-a5PXBX8Tf9PuI'
+TOKEN = '8304603727:AAGPh9G6Hch2Otk1-HHvdX8YX2zNFRQLJVM'
 
 # دریافت قیمت لحظه‌ای از بایننس
 def get_price(symbol):
@@ -93,3 +93,4 @@ if __name__ == '__main__':
     app.add_handler(CommandHandler("buy", send_analysis))
     
     app.run_polling()
+
